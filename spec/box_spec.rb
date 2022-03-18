@@ -4,7 +4,8 @@ describe 'A box' do
 
   describe 'attributes' do
     it 'has tiles' do
-      skip
+      box = Box.initialize
+      expect(box.initialize).to be_valid
     end
   end
 
